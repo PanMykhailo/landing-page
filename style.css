@@ -6,7 +6,8 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
+ 
+/* Header section */
 header {
     background-color: #1f2937;
     color: #fff;
@@ -33,12 +34,13 @@ header {
 }
 
 
-
+/* Hero section */
 .hero-section {
     display: flex;
     justify-content: center;
     background: #1f2937;
     color: #e5e7eb;
+    height: auto;
 }
 
 .container-hero {
@@ -76,7 +78,29 @@ header {
     border-radius: 8px;
 }
 
+/* Additional info section */
+.container-addinfo {
+    flex-direction: row;
+    justify-content: center;
+}
 
+
+.info-cards {
+    flex-direction: row;
+}
+
+.card {
+    flex-direction: row;
+    color: #1f2937;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+/* Footer section */
 footer {
     background-color: #333;
     color: #fff;
