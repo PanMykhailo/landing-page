@@ -34,27 +34,48 @@ header {
 
 
 
-.hero {
+.hero-section {
     display: flex;
     justify-content: center;
-}
-
-.project {
-    flex-direction: row;
     background: #1f2937;
-    flex: 1;
-    padding: 20px;
     color: #e5e7eb;
 }
 
-.project img {
+.container-hero {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 32px;
+    
+}
+
+.texts-button {
+    flex-direction: column;
+}
+
+#hero-text {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.texts-button button {
+    color: rgb(255, 255, 255);
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.container-hero img {
     max-width: 50%;
     border-radius: 8px;
 }
 
-.project p {
-    line-height: 1.6;
-}
 
 footer {
     background-color: #333;
