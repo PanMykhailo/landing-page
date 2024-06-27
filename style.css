@@ -26,7 +26,6 @@ header {
 .links ul, a{
     display: flex;
     flex-direction: row;
-    
     list-style-type: none;
     color: #e5e7eb;
     text-decoration: none;
@@ -80,23 +79,33 @@ header {
 
 /* Additional info section */
 .container-addinfo {
-    flex-direction: row;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.container-addinfo h2 {
+   font-size: 36px;
+   color: #1f2937;
+}
 
 .info-cards {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 16px;
 }
 
 .card {
     flex-direction: row;
     color: #1f2937;
+    flex: 0;
 }
 
 .card img {
     width: 200px;
     height: 200px;
+    border: 5px solid #3882f6;
     border-radius: 8px;
 }
 
