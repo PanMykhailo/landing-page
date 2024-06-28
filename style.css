@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif; 
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -109,8 +109,33 @@ header {
     border-radius: 8px;
 }
 
+/* Quote section */
+.quote-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.container-quote {
+    padding: 16px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    padding-left: 160px;
+    padding-right: 160px;
+
+}
+
+.author {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: end;
+    margin-right: 16px;
+}
 /* Footer section */
-footer {
+/* footer {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -118,4 +143,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+} */

@@ -1,0 +1,91 @@
+diff --git a/index.html b/index.html
+index 3da68ae..434aa69 100644
+--- a/index.html
++++ b/index.html
+@@ -11,13 +11,13 @@
+ <header>
+     <div class="container">
+         <h1>Tourismo</h1>
+-        <div class="links">
++        <nav class="links">
+             <ul>
+                 <li><a href="#">Tours</a></li>
+                 <li><a href="#">Contacts</a></li>
+                 <li><a href="#">About us</a></li>
+             </ul>
+-        </div>
++        </nav>
+     </div>
+ </header>
+ 
+@@ -58,10 +58,15 @@
+ 
+ <div class="quote-section">
+     <div class="container-quote">
+-        
++        <p class="quote"> A huge, big quote that no one will ever read because this repo is trash and i don't know what to add here lol :) </p>
++        <p class="author">-Mykhailo, aspiring full-stack dev</p>
+     </div>
+ </div>
+ 
++<div class="call-to-action">
++    
++</div>
++
+ <footer>
+     <p>Copyright &copy; 2024 PanMykhailo</p>
+ </footer>
+diff --git a/style.css b/style.css
+index 5905c38..27ac5b3 100644
+--- a/style.css
++++ b/style.css
+@@ -1,7 +1,7 @@
+ body {
+     display: flex;
+     flex-direction: column;
+-    font-family: Arial, sans-serif;
++    font-family: sans-serif; 
+     margin: 0;
+     padding: 0;
+     background-color: #f4f4f4;
+@@ -109,8 +109,33 @@ header {
+     border-radius: 8px;
+ }
+ 
++/* Quote section */
++.quote-section {
++    display: flex;
++    flex-direction: row;
++    justify-content: center;
++    background-color: #e5e7eb;
++}
++
++.container-quote {
++    padding: 16px;
++    font-style: italic;
++    font-size: 36px;
++    color: #1f2937;
++    padding-left: 160px;
++    padding-right: 160px;
++
++}
++
++.author {
++    font-size: 16px;
++    font-weight: 700;
++    font-style: normal;
++    text-align: end;
++    margin-right: 16px;
++}
+ /* Footer section */
+-footer {
++/* footer {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+@@ -118,4 +143,4 @@ footer {
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+-}
++} */
